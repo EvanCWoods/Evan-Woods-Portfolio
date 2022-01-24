@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#header-title-container {
+    position: relative;
+    left: 1%;
+}
+#menu-button {
+    position: absolute;
+    right: 5%;
+}
+
+#header-menu-container {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+.menu-option {
+    color: white;
+    text-decoration: none;
+}
+.menu-option-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
