@@ -1,10 +1,14 @@
+:root {
+    --green: rgb(55, 158, 110);
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    background: black;
+    background: rgb(24, 24, 24);
     color: white;
 }
 ul {
@@ -37,4 +41,44 @@ header {
 .menu-option-container {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+#intro-section {
+    display: flex;
+    margin-top: 25%;
+}
+#intro-section-left {
+    width: 35%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+#intro-section-right {
+    margin-right: 10%;
+    height: auto;
+    width: 35%;
+    margin-left: 5%;
+}
+
+#intro-section-title {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+#intro-section-skills,
+#intro-section-text,
+#see-projects-button {
+    margin-top: 5%;
+    line-height: 1.2rem;
+}
+#intro-section-skills {
+    color: var(--green);
+}
+#see-projects-button {
+    padding: 0 7% 0 7%;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    background: var(--green);
+    line-height: 3rem;
 }
