@@ -87,3 +87,34 @@ header {
     background: var(--green);
     line-height: 3rem;
 }
+
+#projects-section {
+    margin-top: 30%;
+    display: flex;
+}
+#projects-container {
+    width: 70%;
+    margin: 0 15% 0 15%;
+    display: flex;
+}
+#projects-list-container {
+    width: 30%;
+}
+
+.project-button {
+    background: none;
+    border: 1px;
+    color: rgb(83, 83, 83);
+    width: 100%;
+    padding: 5% 0 5% 0;
+    line-height: 1.5rem;
+}
+.project-button:hover {
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+#project-content {
+    width: 65%;
+    margin-left: 5%;
+}
