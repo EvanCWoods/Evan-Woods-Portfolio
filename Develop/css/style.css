@@ -20,9 +20,6 @@ a {
     color: var(--green);
     text-decoration: none;
 }
-#enquire-button {
-
-}
 
 /* Header */
 header {
@@ -120,4 +117,29 @@ header {
 #project-content {
     width: 65%;
     margin-left: 5%;
+}
+
+/* Enquiry Form */
+#enquire-form-container {
+    display: none;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#form input,
+#form textarea,
+#form button {
+    margin: 0 35% 0 35%;
+    width: 30%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+#enquiry-submit {
+    background: var(--green);
+    color: white;
+    margin-bottom: 3%;
+}
+.form-button {
+    border: none;
+    border-radius: 10px;
 }
