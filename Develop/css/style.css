@@ -90,6 +90,7 @@ header {
 
 #projects-section {
     margin-top: 30%;
+    display: flex;
 }
 #projects-container {
     width: 70%;
@@ -102,7 +103,7 @@ header {
 
 .project-button {
     background: none;
-    border: none;
+    border: 1px;
     color: rgb(83, 83, 83);
     width: 100%;
     padding: 5% 0 5% 0;
@@ -112,9 +113,8 @@ header {
     border: 1px solid var(--green);
     color: var(--green);
 }
+
 #project-content {
+    width: 65%;
     margin-left: 5%;
-}
-#project-title {
-    color: var(--green);
 }
