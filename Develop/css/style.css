@@ -118,6 +118,15 @@ header {
     width: 65%;
     margin-left: 5%;
 }
+#project-title {
+    color: var(--green);
+}
+#project-description {
+    margin: 3% 0 3% 0;
+}
+#project-code {
+    margin-right: 10%;
+}
 
 /* Enquiry Form */
 #enquire-form-container {

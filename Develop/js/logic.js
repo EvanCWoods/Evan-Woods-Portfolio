@@ -67,17 +67,13 @@ const displayProject = (project) => {
 
 // Add event listener to enquire button
 const enquireButton = document.getElementById("enquire-button");
-enquireButton.addEventListener("click", () => {
+enquireButton.addEventListener("click", (event) => {
+    event.preventDefault();
     console.log("enquire");
-    enquireForm();
-});
-
-// Function to handle the view for the enquire button 
-const enquireForm = () => {
     const enquireForm = document.getElementById("enquire-form-container");
     const header = document.getElementById("header");
     const main = document.getElementById("main");
     header.style.display = "none";
     main.style.display = "none";
     enquireForm.style.display = "flex";
-}
+});
