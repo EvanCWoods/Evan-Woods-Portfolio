@@ -1,17 +1,3 @@
-const menuButton = document.getElementById("menu-button");
-
-// add event listener to menu button to show menu options
-menuButton.addEventListener("click", () => {
-    let menuContainer = document.getElementById("header-menu-container");
-    if (menuContainer.style.display == "none") {
-        menuContainer.style.display = "block";
-    }
-    else {
-        menuContainer.style.display = "none";
-    }
-});
-
-
 // Add event listener to the project buttons
 const projectButtons = document.getElementById("projects-list");
 projectButtons.addEventListener("click", (event) => {
@@ -76,4 +62,22 @@ const displayProject = (project) => {
             projectWebsite.href = projectInfo[i].websiteLink;
         }
     };
+}
+
+
+// Add event listener to enquire button
+const enquireButton = document.getElementById("enquire-button");
+enquireButton.addEventListener("click", () => {
+    console.log("enquire");
+    enquireForm();
+});
+
+// Function to handle the view for the enquire button 
+const enquireForm = () => {
+    const enquireForm = document.getElementById("enquire-form-container");
+    const header = document.getElementById("header");
+    const main = document.getElementById("main");
+    header.style.display = "none";
+    main.style.display = "none";
+    enquireForm.style.display = "flex";
 }

@@ -16,38 +16,36 @@ body {
 ul {
     list-style: none;
 }
-
-header {
-    display: flex;
-    align-items: center;
-}
-
-#header-title-container {
-    position: relative;
-    left: 1%;
-}
-#menu-button {
-    position: absolute;
-    right: 5%;
-}
-
-#header-menu-container {
-    position: absolute;
-    right: 5%;
-    top: 3%;
-}
-.menu-option {
-    color: white;
+a {
+    color: var(--green);
     text-decoration: none;
 }
-.menu-option-container {
-    margin-top: 20px;
-    margin-bottom: 10px;
+
+/* Header */
+header {
+    display: flex;
+    line-height: 2.5rem;
+    padding: 1% 0 1% 0;
 }
-.menu-option:hover {
-    color: var(--green);
+#header-menu {
+    width: 90%;
+    display: flex;
+}
+.header-option {
+    color: white;
+    padding: 0 7% 0 7%;
+}
+#enquire-button {
+    padding: 0 3% 0 3%;
+    margin-right: 1%;
+    border-radius: 20px;
+    border: none;
+    background: rgb(245, 191, 14);
+    color: white;
 }
 
+
+/* Intro section */
 #intro-section {
     display: flex;
     margin-top: 25%;
@@ -88,6 +86,8 @@ header {
     line-height: 3rem;
 }
 
+
+/* Projects section */
 #projects-section {
     margin-top: 30%;
     display: flex;
@@ -117,4 +117,29 @@ header {
 #project-content {
     width: 65%;
     margin-left: 5%;
+}
+
+/* Enquiry Form */
+#enquire-form-container {
+    display: none;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#form input,
+#form textarea,
+#form button {
+    margin: 0 35% 0 35%;
+    width: 30%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+#enquiry-submit {
+    background: var(--green);
+    color: white;
+    margin-bottom: 3%;
+}
+.form-button {
+    border: none;
+    border-radius: 10px;
 }
