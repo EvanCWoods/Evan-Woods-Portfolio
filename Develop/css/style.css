@@ -91,6 +91,7 @@ header {
 #projects-section {
     margin-top: 30%;
     display: flex;
+    margin-bottom: 20%;
 }
 #projects-container {
     width: 70%;
@@ -155,13 +156,11 @@ header {
 
 /* Footer */
 footer {
-    position: absolute;
-    top: 95%;
-    width: 100%;
-    height: 5%;
+    position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin: 3% 0 3% 0;
 }
 footer i {
     font-size: 2rem;
@@ -170,4 +169,5 @@ footer i {
 .footer-button {
     background: none;
     border: none;
+    margin: 0 3% 0 3%;
 }
