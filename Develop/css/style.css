@@ -1,7 +1,9 @@
 :root {
     --green: rgb(55, 158, 110);
 }
-
+button:hover {
+    cursor: pointer;    
+}
 * {
     padding: 0;
     margin: 0;
@@ -41,6 +43,9 @@ header {
 .menu-option-container {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+.menu-option:hover {
+    color: var(--green);
 }
 
 #intro-section {
