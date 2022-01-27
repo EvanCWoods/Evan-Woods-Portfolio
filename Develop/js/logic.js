@@ -45,7 +45,7 @@ const displayProject = (project) => {
             title: "MineSweeper",
             description: "A clone of the  once popular game 'Mine Sweeper', this uses JavaScript to dynamically render the game and set the values under the tiles, and deal with game over events. This project still has room for growth in its code but is functional",
             githubLink: "https://github.com/EvanCWoods/mineSweeper",
-            websiteLink: ""
+            websiteLink: "https://evancwoods.github.io/mineSweeper/"
         },
         turtleGraphics = {
             title: "Turtle Graphics",
