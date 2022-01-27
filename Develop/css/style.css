@@ -114,6 +114,10 @@ header {
     border: 1px solid var(--green);
     color: var(--green);
 }
+.project-button-click {
+    border: 1px solid var(--green);
+    color: var(--green);
+}
 
 #project-content {
     width: 65%;

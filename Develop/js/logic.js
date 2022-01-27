@@ -1,10 +1,16 @@
 // Add event listener to the project buttons
 const projectButtons = document.getElementById("projects-list");
 projectButtons.addEventListener("click", (event) => {
+    const buttons = document.querySelectorAll("button");
+    for (let i=0; i<buttons.length; i++) {
+        if (buttons[i].classList.contains("project-button-click")) {
+            buttons[i].classList.remove("project-button-click");
+        }
+    }
     const chosenProject = event.target.textContent;
+    console.log(event.target);
     displayProject(chosenProject);
-    event.target.style.border = "1px solid rgb(55, 158, 110)";
-    event.target.style.color = "rgb(55, 158, 110)";
+    event.target.classList.add("project-button-click");
 });
 
 
