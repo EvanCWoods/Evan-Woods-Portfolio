@@ -54,9 +54,9 @@ const displayProject = (project) => {
             websiteLink: ""
         },
         timeSeries = {
-            title: "Time Series Forecasting",
-            description: "Time Series forecasting of different data such as financial market data to demonstrate a familiarity with time series in TensorFlow and the ability to create complex models that can accurately predict future values that follow a linear time scale.",
-            githubLink: "https://github.com/EvanCWoods/time-series",
+            title: "Mushroom Classifier",
+            description: "A machine learning application that uses TensorFlow, Keras and other scientific libraries to classify mushrooms as either poisionous or not based on a set of visual charachteristics. This project achieves an accuracy of over 98% on unseen testing data and the model can be saved to be used in a website in the future.",
+            githubLink: "https://github.com/EvanCWoods/Mushroom-Classifier",
             websiteLink: ""
         }
     ];
