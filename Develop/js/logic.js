@@ -83,3 +83,13 @@ enquireButton.addEventListener("click", (event) => {
     main.style.display = "none";
     enquireForm.style.display = "flex";
 });
+
+
+// Add Event listener for see projects button to scroll to them
+const  seeProjectsButton = document.getElementById("see-projects-button");
+seeProjectsButton.addEventListener("click", () => {
+    const projects = document.getElementById("projects-list");
+    projects.scrollIntoView({
+        behavior: "smooth"
+    });
+});
