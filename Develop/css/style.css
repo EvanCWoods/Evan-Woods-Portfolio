@@ -1,6 +1,9 @@
 :root {
     --green: rgb(55, 158, 110);
 }
+html {
+    scroll-behavior: smooth;
+}
 button:hover {
     cursor: pointer;    
 }
