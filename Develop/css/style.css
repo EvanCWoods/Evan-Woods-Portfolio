@@ -193,19 +193,22 @@ header {
 }
 
 /* Footer */
-footer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3% 0 3% 0;
+#contact {
+    width: 70%;
+    margin: 0 15% 15% 15%;
 }
-footer i {
-    font-size: 2rem;
+#contact-title {
+    border-bottom: 1px solid var(--green);
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+#contact i {
+    font-size: 3rem;
     color: white;
 }
-.footer-a {
-    background: none;
-    border: none;
-    margin: 0 3% 0 3%;
+#contact-link-container {
+    width: 70%;
+    margin: 5% 15% 0 15%;
+    display: flex;
+    justify-content: space-between;
 }
