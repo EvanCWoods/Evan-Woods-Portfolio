@@ -14,6 +14,7 @@ projectButtons.addEventListener("click", (event) => {
 });
 
 
+
 // Function to handle displaying the correct project
 const displayProject = (project) => {
     // Target DOM elements
@@ -85,6 +86,7 @@ const displayProject = (project) => {
 }
 
 
+
 // Add event listener to enquire button
 const enquireButton = document.getElementById("enquire-button");
 enquireButton.addEventListener("click", (event) => {
@@ -97,6 +99,7 @@ enquireButton.addEventListener("click", (event) => {
     main.style.display = "none";
     enquireForm.style.display = "flex";
 });
+
 
 
 // Add Event listener for see projects button to scroll to them
