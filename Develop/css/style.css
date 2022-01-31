@@ -180,6 +180,7 @@ header {
     height: auto;
 }
 #project-image img {
+    margin-top: 5%;
     width: 200px; 
     height: 100px;
     position: relative;
