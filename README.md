@@ -19,5 +19,6 @@ Projects are clickable and once selected, the name gets highlighted and project 
 My contact information is available on each of the icons representing the platform, clicking them will redirect a user to the page to interact with the specified media platform.
 ![contact view](./Assets/contact.png)
 
-The website is viewable here:
+
+## The website is viewable here:
 https://evancwoods.github.io/Evan-Woods-Portfolio/ 
