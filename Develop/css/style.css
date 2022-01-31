@@ -175,6 +175,15 @@ header {
 #project-code {
     margin-right: 10%;
 }
+#project-image {
+    width: 100%;
+    height: auto;
+}
+#project-image img {
+    width: 200px; 
+    height: 100px;
+    position: relative;
+}
 
 /* Enquiry Form */
 #enquire-form-container {
