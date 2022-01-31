@@ -65,7 +65,13 @@ const displayProject = (project) => {
             projectTitle.textContent = projectInfo[i].title;
             projectDescription.textContent = projectInfo[i].description;
             projectCode.href = projectInfo[i].githubLink;
-            projectWebsite.href = projectInfo[i].websiteLink;
+            projectWebsite.style.display = "inline-block";
+            projectWebsite.style.width = "20%";
+            if (projectInfo[i].websiteLink == "") {
+                projectWebsite.style.display = "none"
+            } else {
+                projectWebsite.href = projectInfo[i].websiteLink;
+            }
         }
     };
 }
