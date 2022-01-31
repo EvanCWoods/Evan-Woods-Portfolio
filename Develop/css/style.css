@@ -89,6 +89,15 @@ header {
     line-height: 3rem;
 }
 
+#intro-section-right img {
+    height: auto;
+    width: auto;
+    max-height: 90%;
+    max-width: 70%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px rgb(109, 109, 109);
+}
+
 
 /* about me */
 #about-me-section {
