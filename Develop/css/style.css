@@ -231,3 +231,33 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+
+@media only screen and (max-width: 768px) {
+    #intro-section {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    #intro-section-left,
+    #intro-section-right {
+        width: 90%;
+        margin: 10% 5% 5% 5%;
+    }
+    #about-me-section {
+        width: 90%;
+        margin: 5%;
+        text-align: center;
+    }
+    #about-me-title {
+        width: 50%;
+        left: 50%;
+        margin: 5% 0 5% 0;
+        padding: 0;
+    }
+    #tech-container {
+        margin-top: 10%;
+    }
+    #tech-list {
+        text-align: left;
+    }
+}
