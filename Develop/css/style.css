@@ -259,5 +259,9 @@ header {
     }
     #tech-list {
         text-align: left;
+    }   
+    #project-code,
+    #project-website {
+        width: 50%;
     }
 }
