@@ -264,4 +264,12 @@ header {
     #project-website {
         width: 50%;
     }
+    #intro-section-right {
+        display: flex;
+        justify-content: center;
+    }
+    #intro-section-right img {
+        max-height: 320px;
+        max-width: 340px;
+    }
 }
