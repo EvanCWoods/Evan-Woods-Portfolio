@@ -8,7 +8,6 @@ projectButtons.addEventListener("click", (event) => {
         }
     }
     const chosenProject = event.target.textContent;
-    console.log(event.target);
     displayProject(chosenProject);
     event.target.classList.add("project-button-click");
 });
@@ -73,7 +72,6 @@ const displayProject = (project) => {
             projectTitle.textContent = projectInfo[i].title;
             projectTechnologies.innerHTML = "";
             for (let j=0; j<projectInfo[i].technologies.length; j++) {
-                console.log(projectInfo[i].technologies[j]);
                 const techItem = document.createElement("li");
                 techItem.className = "tech-item";
                 techItem.textContent = projectInfo[i].technologies[j];
@@ -98,7 +96,6 @@ const displayProject = (project) => {
 const enquireButton = document.getElementById("enquire-button");
 enquireButton.addEventListener("click", (event) => {
     event.preventDefault();
-    console.log("enquire");
     const enquireForm = document.getElementById("enquire-form-container");
     const header = document.getElementById("header");
     const main = document.getElementById("main");
