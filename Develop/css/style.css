@@ -172,6 +172,9 @@ header {
 #project-description {
     margin: 3% 0 3% 0;
 }
+#project-technologies {
+    margin-bottom: 3%;
+}
 #project-code {
     margin-right: 10%;
 }
