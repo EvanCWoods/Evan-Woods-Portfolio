@@ -4,7 +4,7 @@ This repository contains the code for my personal portfolio website. It was buil
 
 The website contains links to my social media that is tied to my programming career, including LinkedIn, Email, and Instagram. 
 
-The repository is also the week 8 homework for the "University of Sydney Full Stack FLex" bootcamp, and will continue to be updated in the future as new projects are worked on.
+The repository is also the week 8 homework for the "University of Sydney Full Stack Flex" bootcamp, and will continue to be updated in the future as new projects are worked on.
 
 ## Project Images
 
