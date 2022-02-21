@@ -131,7 +131,9 @@ header {
     margin-left: 5%;
 }
 .tech-item {
-    padding: 1% 0 1% 0
+    padding: 1% 0 1% 0;
+    list-style: circle;
+    margin-left: 10%;
 }
 
 /* Projects section */
@@ -185,12 +187,6 @@ header {
 #project-image {
     width: 100%;
     height: auto;
-}
-#project-image img {
-    margin-top: 5%;
-    width: 200px; 
-    height: 100px;
-    position: relative;
 }
 
 /* Enquiry Form */
