@@ -20,8 +20,8 @@ My contact information is available on each of the icons representing the platfo
 ![contact view](./Assets/contact.png)
 
 
-## The website is viewable here:
-https://evancwoods.github.io/Evan-Woods-Portfolio/ 
+## The website is viewable on Heroku here:
+https://evan-woods-portfolio.herokuapp.com
 
 
 ## License
