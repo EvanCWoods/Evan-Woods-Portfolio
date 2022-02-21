@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
-const nodemailer = require('nodemailer')
+const nodemailer = require('nodemailer');
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -17,18 +18,17 @@ app.post("/", (req, res) => {
     console.log(req.body);
 
     const transporter = nodemailer.createTransport({
-        host: 'smtp.ethereal.email',
-        port: 587,
+        service: "gmail",
         auth: {
-            user: 'oswald.paucek75@ethereal.email',
-            pass: 'ratewHr8XugAe4GyPr'
+            user: process.env.email,
+            pass: process.env.password + "#"
     }
     })
     const mailOptions = {
         from: req.body.email,
         to: "evan.woods.dev@gmail.com",
         subject: `Enquiry from ${req.body.fName} ${req.body.lName}`,
-        text: req.body.enquiry
+        text: req.body.explaination
     }
 
     transporter.sendMail(mailOptions, (err, info) => {
