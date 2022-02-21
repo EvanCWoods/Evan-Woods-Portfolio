@@ -250,6 +250,10 @@ header {
         width: 90%;
         margin: 10% 5% 5% 5%;
     }
+    #intro-section-right img {
+        width: 50%;
+        height: 50%;
+    }
     #about-me-section {
         width: 90%;
         margin: 5%;
