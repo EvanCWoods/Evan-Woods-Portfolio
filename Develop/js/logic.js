@@ -114,3 +114,28 @@ seeProjectsButton.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+
+const fName = document.getElementById("enquiry-f-name");
+const lName = document.getElementById("enquiry-l-name");
+const email = document.getElementById("enquiry-email");
+const explaination = document.getElementById("enquiry-explaination");
+
+
+const submitEnquiry = document.getElementById("enquiry-submit");
+submitEnquiry.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    fetch("/", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            fName: fName.value,
+            lName: lName.value,
+            email: email.value,
+            explaination: explaination.value
+        })
+    });
+});
